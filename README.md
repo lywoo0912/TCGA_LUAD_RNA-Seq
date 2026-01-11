@@ -27,15 +27,17 @@
 - PSG1, RAX, F7, SIX1 등이 tumor에서 강하게 발현된 유전자들이다.<br>
 - KLB, SPN 등이 normal에서 강하게 발현된 유전자들이다.<br>
 - log2FC > 0: 같은 유전자가 tumor에서 normal일 때보다 발현율이 더 높다.<br>
-- log2FC < 0: 같은 유전자가 normal에서 tumor일 때보다 발현율이 더 높다.
-
+- log2FC < 0: 같은 유전자가 normal에서 tumor일 때보다 발현율이 더 높다.<br>
+<br>
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/aec411a3-9ed1-4d27-a2b3-df33497a0cae" /><br>
 NES(Normalized Enrichment Score) 해석<br>
 양수 NES: 해당 pathway의 유전자들이 ranked list의 왼쪽(상위, log2FC 양수)에 몰려 있음
 - G2M_CHECKPOINT, E2F_TARGETS → 세포 증식/분열 관련
 - PANCREAS_BETA_CELLS → 췌장 베타 세포 기능 관련
 - SPERMATOGENESIS, GLYCOLYSIS → 대사 활성화
 - MYC_TARGETS → 암관련 신호<br>
+
 음수 NES: 해당 pathway의 유전자들이 ranked list의 오른쪽(하위, log2FC 음수)에 몰려 있음
 - TGF_BETA_SIGNALING, APOPTOSIS → 정상세포 분화/죽음 경로 억제
-- INTERFERON_ALPHA_RESPONSE, IL6_JAK_STAT3_SIGNALING → 면역 반응 억제
+- INTERFERON_ALPHA_RESPONSE, IL6_JAK_STAT3_SIGNALING → 면역 반응 억제<br>
 pval, padj 낮을수록 유의하다.
