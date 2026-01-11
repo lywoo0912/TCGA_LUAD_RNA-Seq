@@ -10,8 +10,9 @@
 5. padj < 0.05 & |log2FoldChange| > 1으로 Volcano plot 작성
 6. Up-regulated와 Down-regulted 각각 top20을 ensembl ID -> Symbol로 변환하고 labeling하여 최종 Volcano plot 작성
 
-- Tumor에서 발현된 유전자의 양이 Normal Tissue에서 발현된 유전자의 양보다 월등히 많음
-- Top20_Up-regulated 유전자: FAM83A, PYCR1, AFAP1-AS1, TEDC2 등
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/44c1696f-c7a2-43f4-94d4-d2210668e9b1" /><br>
+- Tumor에서 발현된 유전자의 양이 Normal Tissue에서 발현된 유전자의 양보다 월등히 많음<br>
+- Top20_Up-regulated 유전자: FAM83A, PYCR1, AFAP1-AS1, TEDC2 등<br>
 - Top20_Down-regulated 유전자: OTUD1, EPAS1, STX11 등
 
 ## gsea.r(GSEA Analysis)
