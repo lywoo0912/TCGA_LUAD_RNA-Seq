@@ -9,7 +9,7 @@
 4. Log2FC shrinkage for visualization & ranking
 5. padj < 0.05 & |log2FoldChange| > 1으로 Volcano plot 작성
 6. Up-regulated와 Down-regulted 각각 top20을 ensembl ID -> Symbol로 변환하고 labeling하여 최종 Volcano plot 작성
-
+<br>
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/44c1696f-c7a2-43f4-94d4-d2210668e9b1" /><br>
 - Tumor에서 발현된 유전자의 양이 Normal Tissue에서 발현된 유전자의 양보다 월등히 많음<br>
 - Top20_Up-regulated 유전자: FAM83A, PYCR1, AFAP1-AS1, TEDC2 등<br>
@@ -20,13 +20,13 @@
 2. Barplot of gene_list 작성
 3. msigdb에서 hallmark gene set 으로 gene_list와 align
 4. GSEA table plot 작성
-
-
-- gene_list: res_LFC - (ensembl ID → symbol 변환 안된 것 + symbol == “” + 중복 symbol)
-- x축: gene_list의 symbol name, y축: log2FoldChange 기준으로 유전자 발현량 차이를 보여줌
-- PSG1, RAX, F7, SIX1 등이 tumor에서 강하게 발현된 유전자들이다.
-- KLB, SPN 등이 normal에서 강하게 발현된 유전자들이다.
-- log2FC > 0: 같은 유전자가 tumor에서 normal일 때보다 발현율이 더 높다.
+<br>
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/2efecacb-d66c-437c-99ac-22895c81ab6d" /><br>
+- gene_list: res_LFC - (ensembl ID → symbol 변환 안된 것 + symbol == “” + 중복 symbol)<br>
+- x축: gene_list의 symbol name, y축: log2FoldChange 기준으로 유전자 발현량 차이를 보여줌<br>
+- PSG1, RAX, F7, SIX1 등이 tumor에서 강하게 발현된 유전자들이다.<br>
+- KLB, SPN 등이 normal에서 강하게 발현된 유전자들이다.<br>
+- log2FC > 0: 같은 유전자가 tumor에서 normal일 때보다 발현율이 더 높다.<br>
 - log2FC < 0: 같은 유전자가 normal에서 tumor일 때보다 발현율이 더 높다.
 
 NES(Normalized Enrichment Score) 해석<br>
