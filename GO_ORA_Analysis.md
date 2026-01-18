@@ -1,5 +1,7 @@
 ## GO-ORA
 ### Up-regulated DEG
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/280cd325-b02d-41a4-b62d-1c5d364646ae" />
+<br>
 - x축: GeneRatio -> (해당 GO term에 속한 DEG 수) / (전체 DEG 수)
 - 값이 클수록 "이 GO term에 속한 up-regulated 유전자 비율이 높다"
 - y축: GO term 이름
