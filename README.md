@@ -1,7 +1,7 @@
 # TCGA_LUAD_RNA-Seq
 
 
-## test.r + test_dev.r(DEG Analysis)
+## DEG Analysis
 1. GDCquery(TCGA)에서 workflow.type = "STAR-Counts", sample.type = (Primary Tumor, Solid Tissue Normal)로 다운로드
 - STAR - Count: RNA-seq reads를 GRCh38에 STAR로 정렬한 뒤 gene 단위로 집계한 raw read count
 2. reference(기준): Solid Tissue Normal -> 0, contrast(대상): Primary Tumor -> 1로 설정하여 DESeq2 진행 
@@ -15,7 +15,7 @@
 - Top20_Up-regulated 유전자: FAM83A, PYCR1, AFAP1-AS1, TEDC2 등<br>
 - Top20_Down-regulated 유전자: OTUD1, EPAS1, STX11 등
 
-## gsea.r(GSEA Analysis)
+## GSEA Analysis
 1. fgsea를 수행하기 위한 gene_list 준비; symbol컬럼 필터링(symbol로 변환 안된 것, ""인 것, 중복 symbol 제외)
 2. Barplot of gene_list 작성
 3. msigdb에서 hallmark gene set 으로 gene_list와 align
