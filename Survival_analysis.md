@@ -3,6 +3,14 @@
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/8610c188-ee6a-4674-9ce6-c9bf16c94adc" /><br>
 - cluster 2, cluster 7의 기울기가 완만함 -> 예후 더 좋음<br>
 - 나머지 cluster는 기울기가 급격히 감소함 -> 예후 안 좋음<br>
+
+<figure>
+    <img src='https://github.com/user-attachments/assets/aa658701-1005-45d4-962d-ee7b74a5af26' alt='missing' width="600" height="600"/>
+    <figcaption>[🎯Cluster 2/4/6 integrated]</figcaption>
+</figure><br>
+- 예후가 가장 안 좋은 cluster 1, 예후가 가장 좋은 cluster 7을 제외하고 umap cluster 상 인접한 cluster 2, 4, 6을 하나로 통합하여 plot 재작성<br>
+- 통합 전과 비교했을 때 plot 양상이 유사하므로 cluster 2, 4, 6은 유사한 tumor subtype이었음을 확인<br>
+
 ## Cox Regression & Forest plot
 <figure>
     <img src='https://github.com/user-attachments/assets/dc4c9683-753f-49d3-9f7c-e35dad58047b' alt='missing' width="600" height="600"/>
