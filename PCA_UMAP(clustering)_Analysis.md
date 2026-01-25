@@ -13,3 +13,11 @@
 - PCA의 1~30차원으로만 UMAP을 수행<br>
 - plot의 오른쪽 커다란 tumor cluster가 형성됨<br>
 - plot의 왼쪽에 normal cluster가 형성됨<br>
+
+---
+DEG 리스트를 이용해서 deg_pca 30차원 UMAP의 clustering 수행<br>
+1. umap 함수의 n_neighbors, min_dist 파라미터의 최적값 탐색(n_neighbors=15, min_dist=0.01)<br>
+2. fviz_nbclust 함수의 kmeans, method=("wss", "silhouette", "gap_stat")을 이용해서 최적 k값 선정(k=8)<br>
+3. UMAP clustering plot 작성
+
+
