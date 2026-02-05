@@ -9,9 +9,22 @@
 ---
 - Top10 selected genes: ['EPAS1', 'B3GNT3', 'TOP2A', 'PECAM1', 'TEDC2', 'EMP2', 'S1PR1', 'FAM83A', 'AFAP1-AS1', 'PYCR1']
 <br>
-
+<img width="800" height="700" alt="Image" src="https://github.com/user-attachments/assets/ec4e2bf8-5571-4ae6-a8a4-296664676f55" /><br>
 <img width="566" height="493" alt="Image" src="https://github.com/user-attachments/assets/dba59c1b-2484-4dc7-86da-0d3009dd6c56" /><br>
-- 
+
+- Cluster 1(가장 나쁜 예후):<br>
+  - 'FAM83A'(1.6) -> EGFR/RAS/MAPK pathway 활성화, 항암제 저항성과 연관<br>
+  - 'TEDC2'(1.34) -> 중심체 구성, 세포분열 시 미세소관 조직 조절(과발현하면 분열 속도 증가, 중심체 기능 이상 -> 염색체 불안정성 증가)<br>
+  - 'B3GNT3'(1.14) -> 혈관 내 침윤(intravasation) 증가<br>
+  - 'AFAP1-AS1'(-1.88) -> 전이에 의존하지 않는 혈관 접근성이 높은 고증식 종양(proliferation-driven cancer; "전이형 암"이 아닌 "국소에서 폭주하는 증식형 암"일 가능성)<br>
+
+
+- Cluster 7(가장 좋은 예후):<br>
+  - 'PECAM1'(1.92) -> 세포 접착 유지, 혈관 장벽 안정성 유지<br>
+  - 'S1PR1'(1.84) -> 혈관 안정화, Immune cell migration/Angiogenesis regulation pathway<br>
+  - 'TOP2A'(-1.06) -> low proliferation
+  - 'PYCR1'(-1.42) -> 침윤성 및 증식 증가 유전자의 억제
+
 
 
 
