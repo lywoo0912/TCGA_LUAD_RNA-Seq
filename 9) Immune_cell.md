@@ -7,21 +7,18 @@
 3. 수행 후 null값이 가장 적은 method = "epic"방법 선택<br>
 4. Epic 결과 8개의 cell types를 Kruskal-Wallis & Dunn test를 통해 유의한 cell types만 추출<br>
 5. mycluster별 boxplot을 작성하여 cluster별 cell types 차이 확인<br>
+<br>
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/5da793af-74ab-4be7-ba0c-b3e1357f3f47" /><br>
 
-
-### Cell types별 특징
+### Cell types별 특징<br>
 - Cancer associated fibroblast (cluster2 highest)<br>
 : a cell type within the TME that promotes tumorigenic features by initiating the remodeling of the extracellular matrix or by secreting cytokines.<br>
-<br>
 - T cell CD4+ / T cell CD8+ (cluster2 lowest, cluster3 high)<br>
 : key players in the immune response against both pathogenic infections and cancer.<br>
-<br>
 - Endothelial cell (cluster2 highest)<br>
 : angiogenesis<br>
-<br>
 - Macrophage (cluster2 highest)<br>
 : destroy germs, damaged cells and cancer cells; promote tissue repair and healing.<br>
-<br>
 - Nk(Natural killer) cell (cluster3 highest)<br>
 : destroy infected and diseased cells, like cancer cells.<br>
 
