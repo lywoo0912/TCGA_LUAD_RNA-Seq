@@ -9,6 +9,7 @@
 5. mycluster별 boxplot을 작성하여 cluster별 cell types 차이 확인<br>
 <br>
 <img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/5da793af-74ab-4be7-ba0c-b3e1357f3f47" /><br>
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/466eb200-3b4f-465f-8729-7ac46d062b1f" /><br>
 
 ### Cell types별 특징<br>
 - Cancer associated fibroblast (cluster2 highest)<br>
