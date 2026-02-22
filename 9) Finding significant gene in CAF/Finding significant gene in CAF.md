@@ -13,5 +13,8 @@
 <br>
 <img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/a06c04e5-2e37-4b22-9a28-4952431549fe" /><br>
 - 실제로 Km curve에서 SERPINE1 high가 SERPINE1 low보다 예후가 급격히 나빠지는 경향을 보임.<br>
+### SERPINE1 & Stage와의 관계(Cox Regression)
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/1b3cdc50-c4e8-4350-b640-c16fdcd5ac4c" /><br>
+❓Question: SERPINE1은 stage와 관계없이 예후를 불량하게 만드는 강력한 인자인가?<br>
 <br>
-
+🎯Answer: Stage가 같은 환자들끼리 비교했을 때도, SERPINE1이 높은 사람이 더 빨리 사망하였다. Stage를 보정변수로 포함한 다변량 Cox 분석 결과, SERPINE1의 발현(Low vs High)은 여전히 통계적으로 유의한 예후 인자였다 (p=0.000582 < 0.001). 이는 환자의 병기가 동일하다고 가정했을 때, SERPINE1 발현이 높은 환자가 낮은 환자에 비해 사망 위험이 약 2.4배 높음을 의미한다.
