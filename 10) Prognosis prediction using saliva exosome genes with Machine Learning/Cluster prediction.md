@@ -23,3 +23,5 @@
 - Randomforest모델이 9개 genes의 가중치를 계산한 feature importance<br>
 - SBSN: 약 0.28, KRT16: 약 0.166으로 전체의 약 44%차지함.<br>
 - 이 두 genes는 Cluster2에서 Up-regulated된 유전자였음
+---
+## Cluster1&3, Cluster2 비율 1:1 & 임상데이터 추가 Ver
