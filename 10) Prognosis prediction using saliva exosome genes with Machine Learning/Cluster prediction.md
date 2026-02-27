@@ -25,3 +25,13 @@
 - 이 두 genes는 Cluster2에서 Up-regulated된 유전자였음
 ---
 ## Cluster1&3, Cluster2 비율 1:1 & 임상데이터 추가 Ver
+### Randomforest model classification report
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/5dbff05f-1094-43b5-8a42-72ba27acc10c" /><br>
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/b40da67f-42e5-4336-b9e2-24bcc610727e" /><br>
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/c6e738a7-cc23-4c8e-b475-5116e8b6f7a9" /><br>
+
+- cluster1&3와 cluster2의 sample 비율을 104:104로 일치시킨 후 Gender, Age, Race, Stage를 머신러닝 feature로 추가하였음.(Age값이 NA인 것 3개 제외 -> 205 samples)<br>
+- 비율 일치 후 임상데이터를 추가하지 않은 모델의 임계값 조정 전 Accuracy=0.76이었고, 임상데이터 추가한 모델의 임계값 조정 전 Accuracy=0.73이었음. 따라서 임상데이터 자체는 9 genes만 있을 때보다는 노이즈를 증가시킨 것으로 보임.(barplot을 보아도 genes의 importance가 압도적이다)<br>
+- 다만, 임계값을 조정했을 때 임상데이터를 추가하지 않은 모델의 Accuracy=0.8, 임상데이터 추가한 모델의 Accuracy=0.878을 달성하였음. 이를 통해 이전 모델에서 완벽히 구별 못하던 것들이 임상데이터 추가로 인한 fine tuning으로 명확히 구별해내는 것을 확인할 수 있음.<br>
+(cf. 임계값(Threshold): 임계값 조정을 통해 recall값을 올릴 수 있다. 두 모델 모두 약 0.37정도로 하향 조정하였고, 폐암인 환자를 폐암이 아닌 환자로 분류하는 것이 더 치명적이기 때문에, 기존 50%가 아닌 37%이상이면 불량 예후인 cluster2로 분류하도록 한 것.)
+
